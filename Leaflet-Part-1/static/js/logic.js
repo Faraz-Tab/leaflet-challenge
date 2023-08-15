@@ -37,9 +37,9 @@ legend.onAdd = function(myMap) {
 legend.addTo(myMap);
 document.querySelector(".legend").innerHTML = [
   '<i style="background:yellowgreen"></i>depth < 20<br>',
-  '<i style="background:green"></i>20 <= depth<br>',
-  '<i style="background:yellow"></i>40 <= depth<br>',
-  '<i style="background:orange"></i>60 <= depth<br>',
+  '<i style="background:green"></i>20 <= depth < 40<br>',
+  '<i style="background:yellow"></i>40 <= depth < 60<br>',
+  '<i style="background:orange"></i>60 <= depth < 80<br>',
   '<i style="background:red"></i>80 <= depth<br>'
 ].join("");
 

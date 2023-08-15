@@ -12,8 +12,9 @@ html {
 .legend {
   padding: 10px;
   font-family: Sanchez, serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
+  font-style: italic;
   line-height: 18px;
   color: #555;
   background-color: white;
